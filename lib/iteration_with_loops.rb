@@ -5,7 +5,7 @@ def join_nested_strings(src)
   for i in 0...src.count
     for j in 0...src[i].count
       if src[i][j].is_a? String
-        string_array << srci[i][j]
+        string_array << src[i][j]
       end
     end
   end
