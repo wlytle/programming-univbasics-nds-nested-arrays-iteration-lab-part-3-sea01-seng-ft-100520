@@ -4,7 +4,9 @@ def join_nested_strings(src)
   string_array = []
   for i in 0...src.count
     for j in 0...src[i].count
-      if src[i][j].class
+      if src[i][j].is_a? String
+        
+      end
     end
   end
   
